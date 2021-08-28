@@ -1,0 +1,115 @@
+/*---------------------------ZA VELIKE EKRANE--------------------------*/
+@media screen and (min-width:700px) {
+    .main {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    body{
+        background-color: lightgray;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: fantasy;
+    }
+    .trainer{
+        text-align: center;
+        margin-top: -20px;
+    }
+    .trainers{
+        font-size: 17px;
+    }
+    #marko{
+        padding: 20px;
+    }
+    #boy1{
+        float: right;
+        margin-top: -210px;
+    }
+    #uros{
+        padding: 20px;
+    }
+    #boy2{
+        float: right;
+        margin-top: -180px;
+    }
+    #ana{
+        padding: 20px;
+    }
+    #girl{
+        float: right;
+        margin-top: -180px;
+    }
+    #copyright{
+        text-align: center;
+        color: white;
+        background-color: #333;
+    }
+}
+/*---------------------------ZA TELEFON--------------------------*/
+@media screen and (max-width:700px) {
+    .main {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    body{
+        background-color: lightgray;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: fantasy;
+    }
+    .trainer{
+        text-align: center;
+        margin-top: -20px;
+
+    }
+    .trainers{
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+    }
+    .element{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .element img {
+        position: relative;
+        top: 250px;
+    }
+    .element p {
+        max-height: 250px;
+    }
+    #marko{
+        padding: 20px;
+    }
+    #boy1{
+        float: right;
+        margin-top: -210px;
+    }
+    #uros{
+        padding: 20px;
+    }
+    #boy2{
+        float: right;
+        margin-top: -180px;
+    }
+    #ana{
+        padding: 20px;
+    }
+    #girl{
+        float: right;
+        margin-top: -180px;
+    }
+    #copyright{
+        text-align: center;
+        color: white;
+        background-color: #333;
+    }
+}

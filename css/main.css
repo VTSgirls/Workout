@@ -1,0 +1,332 @@
+html {
+  overflow-x: hidden;
+}
+
+.active {
+  background-color: #E8E8E8 !important;
+}
+
+.cover {
+  margin-top: 10px;
+}
+.cover a {
+  color: #000;
+}
+.cover a:hover {
+  color: #666666;
+  text-decoration: none;
+}
+
+.r {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content {
+  flex: 1;
+}
+.content .sec2 .prof {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.content .sec2 .prof .l {
+  width: 100%;
+}
+.content .sec2 .prof .l .form-group {
+  text-align: center;
+}
+.content .sec2 .prof .r {
+  width: 100%;
+}
+.content .sec2 .prof .r .form-group {
+  text-align: center;
+}
+@media all and (min-width: 1024px) {
+  .content .sec2 .prof {
+    flex-direction: row;
+  }
+  .content .sec2 .prof .l {
+    width: 50%;
+  }
+  .content .sec2 .prof .r {
+    width: 50%;
+    height: 476px;
+  }
+}
+.content .exercise {
+  display: flex;
+  flex-direction: column;
+}
+.content .exercise .el {
+  width: 100%;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.content .exercise .el .leftb {
+  width: 40%;
+  margin-right: 20px;
+}
+.content .exercise .el .rightb .d {
+  font-size: 20px;
+}
+.content .exercise .el .rightb .d button {
+  background-color: #ff6666;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+  padding: 8px;
+}
+@media all and (min-width: 1024px) {
+  .content .exercise {
+    flex-direction: row;
+  }
+  .content .exercise .el {
+    width: 30%;
+    flex-direction: column;
+  }
+  .content .exercise .el .leftb {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 99vh;
+}
+
+nav {
+  background-color: #333;
+}
+nav ul {
+  background-color: #333;
+  z-index: 10;
+}
+nav ul form {
+  margin: 7px;
+}
+nav ul form input {
+  border-radius: 10px;
+  padding: 7px;
+}
+nav ul form button {
+  padding: 7px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+@media all and (min-width: 768px) {
+  nav {
+    height: 60px;
+    width: 100%;
+    background: #333;
+  }
+  nav a {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: #ccc !important;
+    transition: 0.5s;
+    text-decoration: underline;
+  }
+  nav ul {
+    margin-right: 50px;
+  }
+  nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 60px;
+  }
+  nav .nav-link {
+    display: unset;
+  }
+  nav .brand {
+    text-decoration: none;
+    margin: 0;
+  }
+  nav .brand:hover {
+    text-decoration: none;
+  }
+  nav .brand p {
+    margin: 0;
+  }
+}
+
+.main_home h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  font-weight: 500;
+}
+.main_home h2 {
+  text-align: center;
+  font-size: 22px;
+}
+.main_home .pictures {
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #E8E8E8;
+}
+.main_home .pictures img {
+  width: 500px;
+  margin: 10px;
+}
+@media all and (min-width: 1440px) {
+  .main_home .pictures {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .main_home .pictures img {
+    margin: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 480px;
+  }
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .left {
+  margin-bottom: 30px;
+}
+.container .left .text {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.container .left .tx {
+  text-align: center;
+}
+.container .left h3 {
+  text-align: center;
+}
+@media all and (min-width: 1440px) {
+  .container {
+    flex-direction: row;
+  }
+  .container .left {
+    width: 50%;
+  }
+}
+
+.main .trainers .element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  border: 1px solid #E8E8E8;
+  padding: 10px;
+}
+.main .trainers .element .leftbox {
+  margin-bottom: 20px;
+}
+.main .trainers .element .leftbox p {
+  font-size: 17px;
+}
+.main .trainers .element .rightbox img {
+  width: 300px;
+}
+@media all and (min-width: 768px) {
+  .main .trainers .element {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .main .trainers .element .leftbox {
+    width: 30%;
+    text-align: justify;
+    margin-bottom: 0;
+  }
+  .main .trainers .element .rightbox img {
+    width: 400px;
+  }
+}
+
+.c .con {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.c .con .ex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+@media all and (min-width: 768px) {
+  .c .con {
+    flex-direction: row;
+  }
+  .c .con .ex {
+    width: 50%;
+  }
+  .c .con .ex .d {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .c .con {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex;
+  }
+  .c .con .ex {
+    flex-direction: row;
+    width: 30%;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.exercises {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 35px;
+}
+.exercises-elem {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+.exercises-elem-title {
+  text-align: center;
+  font-weight: bold;
+}

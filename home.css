@@ -1,0 +1,247 @@
+/*---------------------------ZA VELIKE EKRANE--------------------------*/
+@media screen and (min-width:700px) {
+    .main_home {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    body {
+        background-color: lightgray;
+    }
+
+    .pictures {
+        display: inline-flex;
+        margin: 100px;
+    }
+
+    .pic2 {
+        margin-left: 100px;
+        height: 300px;
+    }
+
+    .pic3 {
+        margin-left: 100px;
+        margin-top: 70px;
+        height: 300px;
+    }
+
+    .icon {
+        margin-top: 13px;
+        color: white;
+    }
+
+    .trainer {
+        text-align: center;
+        margin-top: -30px;
+    }
+
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+    }
+
+    .left {
+        padding: 30px;
+    }
+
+    .right {
+        padding: 30px;
+    }
+
+    .text {
+        width: 250px;
+        height: 50px;
+        color: white;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #111;
+    }
+
+    .navbar input {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 20px;
+        font-size: 17px;
+    }
+
+    .navbar button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-family: fantasy;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .gym {
+        float: right;
+        margin-top: -200px;
+        margin-right: 150px;
+    }
+
+    #copyright {
+        text-align: center;
+        color: white;
+        background-color: #333;
+    }
+}
+    /*---------------------------ZA TELEFON--------------------------*/
+@media screen and (max-width:700px) {
+    .main_home {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    body {
+        background-color: lightgray;
+    }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic{
+        height: 500px;
+        margin-bottom: 5px;
+    }
+
+    .pic2 {
+        height: 300px;
+    }
+
+    .pic3 {
+        height: 300px;
+    }
+
+    .icon {
+        margin-top: 13px;
+        color: white;
+    }
+
+    .trainer {
+        text-align: center;
+        margin-top: -30px;
+    }
+
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        padding: 30px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .text {
+        width: 250px;
+        height: 50px;
+        margin-bottom:25px;
+        color: white;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #111;
+    }
+
+    .navbar input {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 20px;
+        font-size: 17px;
+    }
+
+    .navbar button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    form{
+        margin-right: 70px;
+    }
+
+    h1 {
+        font-family: fantasy;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #copyright {
+        text-align: center;
+        color: white;
+        background-color: #333;
+    }
+}
+
+
+

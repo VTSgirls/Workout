@@ -1,0 +1,52 @@
+/*---------------------------ZA VELIKE EKRANE--------------------------*/
+@media screen and (min-width:700px) {
+    .main2 {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: inline-flex;
+    }
+
+    body {
+        border: 2px solid black;
+    }
+
+    .categories_list {
+        padding: 10px;
+        background-color: lightgray;
+    }
+
+    .exercises_list {
+        padding: 10px;
+        background-color: slategray;
+    }
+}
+/*---------------------------ZA TELEFON--------------------------*/
+@media screen and (max-width:700px) {
+    .main2 {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .categories_list {
+        padding: 10px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exercises_list {
+        padding: 10px;
+        background-color: slategray;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,20 @@
+html{
+    background: url("background.jpg") no-repeat center fixed;
+    background-size: cover;
+    color: white;
+}
+#welcome{
+    font-size: 50px;
+}
+.container .programs_exercises{
+    display: flex;
+}
+.programs{
+    margin-bottom: 0;
+}
+.programs_exercises {
+    margin-left: 200px;
+}
+.btn {
+    background-color: #636769;
+}

@@ -1,0 +1,174 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("img/background.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.container-login {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+
+.container-login .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container-login .login-social {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    margin-bottom: 25px;
+}
+
+.container-login .login-social a {
+    padding: 12px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFF;
+    transition: .3s;
+}
+
+.container-login .login-social a i {
+    margin-right: 5px;
+}
+
+.container-login .login-social a.facebook {
+    background: #5a5c62;
+}
+
+.container-login .login-social a.twitter {
+    background: #606569;
+}
+
+.container-login .login-social a.google-plus {
+    background: #433e3d;
+}
+
+.container-login .login-social a.linkedin {
+    background: #636769;
+}
+
+.container-login .login-social a.facebook:hover {
+    background: #76787c;
+}
+
+.container-login .login-social a.twitter:hover {
+    background: #8b9092;
+}
+
+.container-login .login-social a.google-plus:hover {
+    background: #605e5d;
+}
+
+.container-login .login-social a.linkedin:hover {
+    background: #0b5c81;
+}
+
+.container-login .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container-login .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container-login .login-email .input-group input:focus, .container-login .login-email .input-group input:valid {
+    border-color: #68676d;
+}
+
+.container-login .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #6b6b72;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+#biography{
+    height: 100px;
+}
+.container-login .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #b7b5be;
+}
+
+.login-register-text .role  {
+    color: #111;
+    font-weight: 600;
+}
+
+.login-register-text{
+    text-align: center;
+}
+
+.form-select{
+    font-weight: 600;
+    color: #111;
+}
+
+.role{
+    text-align: center;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #8d8c96;
+}
+
+@media (max-width: 430px) {
+    .container-login {
+        width: 300px;
+    }
+    .container-login .login-social {
+        display: block;
+    }
+    .container-login .login-social a {
+        display: block;
+    }
+}
